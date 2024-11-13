@@ -332,8 +332,17 @@ class UserOne{
 }
 
 const u1 = new UserOne()
-console.log(u1.name)
+// console.log(u1.name)
 
+
+// read only
+
+class UserTwo{
+    readonly myname  = "peter";
+}
+
+let accessUserTwo = new UserTwo()
+// accessUserTwo.myname = "aman vats"    //    
 
 
 
